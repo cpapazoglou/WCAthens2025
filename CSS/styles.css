@@ -3367,98 +3367,98 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 
 /* /Revamp front-page styles */
 /* Revamp Sponsors page styles */
-.page-id-341 #primary {
+.page-id-11 #primary {
 	max-width: unset;
 }
 
-.page-id-341 {
+.page-id-11 {
 	background: #f3f3f3;
 }
 
-.page-id-341 #main {
+.page-id-11 #main {
 	margin: 0;
 	max-width: 100%;
 }
 
-.page-id-341 #main .entry-header {
+.page-id-11 #main .entry-header {
 	margin-top: 80px;
 	margin-bottom: 1rem;
 }
 
-.page-id-341 #main .entry-title,
-.page-id-341 #main .entry-subtitle {
+.page-id-11 #main .entry-title,
+.page-id-11 #main .entry-subtitle {
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-.page-id-341 #main .entry-subtitle {
+.page-id-11 #main .entry-subtitle {
 	margin-bottom: 80px;
 }
 
-.page-id-341 #main #content {
+.page-id-11 #main #content {
 	padding: 0;
 }
 
-.page-id-341 #main #secondary {
+.page-id-11 #main #secondary {
 	display: none;
 }
 
-.page-id-341 #main #primary {
+.page-id-11 #main #primary {
 	width: 100%;
 	padding: 0;
 	background: transparent;
 }
 
-.page-id-341 #main h2.gold-heading,
-.page-id-341 #main h2.silver-heading {
+.page-id-11 #main h2.gold-heading,
+.page-id-11 #main h2.silver-heading {
 	text-align: center;
 	color: #fff;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
-.page-id-341 #main h2.gold-heading {
+.page-id-11 #main h2.gold-heading {
 	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-main-room.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
-.page-id-341 #main h2.silver-heading {
+.page-id-11 #main h2.silver-heading {
 	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-21.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
-.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
+.page-id-11 #main .has-layout-grid.wordcamp-sponsors {
 	padding: 40px 150px;
 	grid-gap: 40px;
 }
 
-.page-id-341 #main .sharedaddy.sd-sharing-enabled {
+.page-id-11 #main .sharedaddy.sd-sharing-enabled {
 	padding: 40px 150px;
 }
 
-.page-id-341 #main .has-layout-grid.wordcamp-sponsors .wordcamp-post-list__post {
+.page-id-11 #main .has-layout-grid.wordcamp-sponsors .wordcamp-post-list__post {
 	background: #fff;
 	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 	padding: 40px;
 }
 
 @media (max-width: 1024px) {
-	.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
+	.page-id-11 #main .has-layout-grid.wordcamp-sponsors {
 		padding: 20px;
 	}
 	
-	.page-id-341 #main .sharedaddy.sd-sharing-enabled {
+	.page-id-11 #main .sharedaddy.sd-sharing-enabled {
 		padding: 20px;
 	}
 }
 
 @media (max-width: 768px) {
-	.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
+	.page-id-11 #main .has-layout-grid.wordcamp-sponsors {
 		grid-gap: 20px;
 		grid-template-columns: 1fr;
 	}
