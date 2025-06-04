@@ -2410,37 +2410,37 @@ button.tix-payment-tab.tix-preferred-payment-option {
 
 /* 11.7 Speakers Programm
 ======================================*/
-.page-id-9 .wcpt-time {
+.page-id-8 .wcpt-time {
 	background: #1334a618;
 	color: #1334a6;
 	font-weight: 700;
 }
 
-.page-id-9 thead {
+.page-id-8 thead {
 	background: #1334a6;
 }
 
-.page-id-9 span.wcpt-track-name {
+.page-id-8 span.wcpt-track-name {
 	font-size: 1.6rem;
 	color: white;
 }
 
-.page-id-9 td, .page-id-9 th {
+.page-id-8 td, .page-id-8 th {
 	vertical-align: middle;
 	color: #1334a6;
 }
 
-.page-id-9 .wcpt-col-time {
+.page-id-8 .wcpt-col-time {
 	color: white;
 	font-size: .85rem;
 	text-align: center;
 }
 
-.page-id-9 .global-session {
+.page-id-8 .global-session {
 	background: #1334a618;
 }
 
-.page-id-9 .wcpt-time {
+.page-id-8 .wcpt-time {
 	background: #1334a618;
 }
 
