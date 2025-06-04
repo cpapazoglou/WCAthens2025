@@ -3029,6 +3029,14 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 2rem 0;
 }
 
+.intro-post-description a {
+	color: #fff;
+}
+
+.intro-post-description a:hover {
+	color: #fff;
+}
+
 .inner-featured-group {
 	top: -15rem;
 	position: relative;
@@ -3343,6 +3351,10 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	padding: 40px 50px;
 	margin-bottom: 0;
 	margin-top: 80px;
+}
+
+.page-id-406 .entry-content .front-newsletter input[type='email'] {
+	background: inherit;	
 }
 
 #subscribe-submit > button {
