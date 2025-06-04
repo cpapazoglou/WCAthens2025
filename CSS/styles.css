@@ -1243,6 +1243,17 @@ ul.menu {
 	padding: 0 .7rem;
 	width: 50%;
 	border: none !important;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+#after-header-widgets .widget:hover {
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 #after-header-widgets .textwidget img {
@@ -3329,7 +3340,7 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 .page-id-406 .entry-content .front-newsletter {
 	background: #1233a6;
 	color: #fff;
-	padding: 40px 250px;
+	padding: 40px 50px;
 	margin-bottom: 0;
 	margin-top: 80px;
 }
@@ -3356,10 +3367,6 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 @media ( max-width: 1024px ) {
-	.page-id-406 .entry-content .front-newsletter {
-		padding: 40px 50px;
-	}
-	
 	.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget form {
 		grid-template-columns: 1fr;
 	}
@@ -3483,12 +3490,12 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	margin: 4rem;
 }
 
-.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+/* .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
 	flex-basis: 0;
 	flex-grow: 1;
 	justify-content: center;
 	display: inherit;
-}
+} */
 
 /* Προσαρμοσμένη CSS από athens.wordcamp.org */
 .is-wide-image-fill img {
