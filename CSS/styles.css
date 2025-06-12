@@ -1685,7 +1685,8 @@ body.home #footer-widget-3 {
 	box-shadow: none !important;
 }
 
-.page-id-406 #footer-widgets {
+.page-id-406 #footer-widgets,
+.page-id-326 #footer-widgets {
 	display: none;
 }
 
@@ -2924,47 +2925,59 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 /* Revamp front-page styles */
 .page-id-406 #secondary,
 .page-id-406 .entry-header,
-.page-id-406 .comments-area {
+.page-id-406 .comments-area,
+.page-id-326 #secondary,
+.page-id-326 .entry-header,
+.page-id-326 .comments-area {
 	display: none;
 }
 
-.page-id-406 {
+.page-id-406,
+.page-id-326 {
 	background: #f3f3f3;
 }
 
-.page-id-406 #main {
+.page-id-406 #main,
+.page-id-326 #main {
 	margin: 0;
 }
 
 .page-id-406 #main,
-.page-id-406 #primary {
+.page-id-406 #primary,
+.page-id-326 #main,
+.page-id-326 #primary {
 	width: 100%;
 	max-width: unset;
 	padding: 0;
 }
 
-.page-id-406 .big-image-front {
+.page-id-406 .big-image-front,
+.page-id-326 .big-image-front {
 	width: 35vw;
 	height: auto;
 	margin: 0 auto;
 }
 
-.page-id-406 .big-image-featured {
+.page-id-406 .big-image-featured,
+.page-id-326 .big-image-featured {
 	width: 35vw;
 	height: auto;
 	margin: 0 auto;
 }
 
-.page-id-406 #primary {
+.page-id-406 #primary,
+.page-id-326 #primary {
 	background: transparent;
 }
 
-.page-id-406 #content {
+.page-id-406 #content,
+.page-id-326 #content {
 	padding: 0;
 }
 
 /* Buttons */
-.page-id-406 .wp-block-button__link {
+.page-id-406 .wp-block-button__link,
+.page-id-326 .wp-block-button__link {
 	background-color: #1ed6bb;
 	color: #000000;
 	transition: all .3s ease;
@@ -2972,13 +2985,15 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	font-weight: 600;
 }
 
-.page-id-406 .wp-block-button__link:hover {
+.page-id-406 .wp-block-button__link:hover,
+.page-id-326 .wp-block-button__link:hover {
 	background: rgba(14,99,216,1);
 	color: #fff;
 }
 
 /* Intro post */
-.page-id-406 .front-intro-post {
+.page-id-406 .front-intro-post,
+.page-id-326 .front-intro-post {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
@@ -2986,25 +3001,29 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 }
 
-.page-id-406 .featured-post-group {
+.page-id-406 .featured-post-group,
+.page-id-326 .featured-post-group {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
 	height: 66rem;
 }
 
-.page-id-406 .front-intro-post blockquote {
+.page-id-406 .front-intro-post blockquote,
+.page-id-326 .front-intro-post blockquote {
 	padding: 3rem !important;
 }
 
-.page-id-406 .big-image-front {
+.page-id-406 .big-image-front,
+.page-id-326 .big-image-front {
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
 }
 
 /*Big Featured Post*/
-.page-id-406 .big-image-featured {
+.page-id-406 .big-image-featured,
+.page-id-326 .big-image-featured {
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
@@ -3076,7 +3095,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 /* Sponsors */
-.page-id-406 .front-sponsors {
+.page-id-406 .front-sponsors,
+.page-id-326 .front-sponsors {
 	color: #fff;
 	margin-top: 80px;
 	padding: 50px;
@@ -3086,31 +3106,38 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	background-position: bottom center;
 }
 
-.page-id-406 .front-sponsors .wp-block-column {
+.page-id-406 .front-sponsors .wp-block-column,
+.page-id-326 .front-sponsors .wp-block-column {
 	text-align: center;
 }
 
-.page-id-406 .front-sponsors img {
+.page-id-406 .front-sponsors img,
+.page-id-326 .front-sponsors img {
 	max-width: 300px;
 	width: 100%;
 }
 
 .page-id-406 .front-gold-sponsor-images,
-.page-id-406 .front-silver-sponsor-images {
+.page-id-406 .front-silver-sponsor-images,
+.page-id-326 .front-gold-sponsor-images,
+.page-id-326 .front-silver-sponsor-images {
 	max-width: 968px;
 	margin: 0 auto;
 }
 
-.page-id-406 .front-gold-sponsor-images img {
+.page-id-406 .front-gold-sponsor-images img,
+.page-id-326 .front-gold-sponsor-images img {
 	max-width: 250px;
 }
 
-.page-id-406 .front-silver-sponsor-images img {
+.page-id-406 .front-silver-sponsor-images img,
+.page-id-326 .front-silver-sponsor-images img {
 	max-width: 200px;
 }
 
 /* Latest Posts */
-.page-id-406 #τελευταία-νέα {
+.page-id-406 #τελευταία-νέα,
+.page-id-326 #τελευταία-νέα {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
@@ -3119,7 +3146,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	color: rgba(14,99,216,1);
 }
 
-.page-id-406 h2.front-latest-posts-header:after {
+.page-id-406 h2.front-latest-posts-header:after,
+.page-id-326 h2.front-latest-posts-header:after {
 	content: " ";
 	background: url('https://2020.athens.wordcamp.org/files/2020/01/Waves-Seperator-01.png');
 	display: block;
@@ -3131,18 +3159,21 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 @media ( max-width:375px ) {
-	.page-id-406 h2.front-latest-posts-header:after {
+	.page-id-406 h2.front-latest-posts-header:after,
+	.page-id-326 h2.front-latest-posts-header:after {
 		margin-left: -545px;
 	}
 }
 
-.page-id-406 ul.front-latest-posts {
+.page-id-406 ul.front-latest-posts,
+.page-id-326 ul.front-latest-posts {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
 }
 
-.page-id-406 ul.front-latest-posts {
+.page-id-406 ul.front-latest-posts,
+.page-id-326 ul.front-latest-posts {
 	padding: 0;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -3150,33 +3181,38 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	grid-row-gap: 50px;
 }
 
-.page-id-406 ul.front-latest-posts li {
+.page-id-406 ul.front-latest-posts li,
+.page-id-326 ul.front-latest-posts li {
 	background: #fff;
 	padding: 15px;
 	float: left;
 	box-shadow: -10px -10px 0 0 rgba(14,99,216,1);
 }
 
-.page-id-406 ul.front-latest-posts li a {
+.page-id-406 ul.front-latest-posts li a,
+.page-id-326 ul.front-latest-posts li a {
 	font-weight: 600;
 	font-size: 20px;
 	font-family: 'Noto Serif', serif;
 }
 
-.page-id-406 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
+.page-id-406 ul.front-latest-posts li .wp-block-latest-posts__featured-image,
+.page-id-326 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
 	float: left;
 	margin-right: 20px;
 }
 
 @media ( max-width: 768px ) {
-	.page-id-406 ul.front-latest-posts {
+	.page-id-406 ul.front-latest-posts,
+	.page-id-326 ul.front-latest-posts {
 		grid-template-columns: 1fr;
 		grid-row-gap: 40px;
 	}
 }
 
 @media (max-width: 425px) {
-	.page-id-406 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
+	.page-id-406 ul.front-latest-posts li .wp-block-latest-posts__featured-image,
+	.page-id-326 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
 		float: unset;
 		margin-left: 0;
 		margin-bottom: 20px;
@@ -3184,20 +3220,23 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 /* Counter */
-.page-id-406 .front-counter {
+.page-id-406 .front-counter,
+.page-id-326 .front-counter {
 	margin-top: 80px;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 }
 
-.page-id-406 .front-counter .left {
+.page-id-406 .front-counter .left,
+.page-id-326 .front-counter .left {
 	min-height: 200px;
 	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-21.jpg');
 	background-size: cover;
 	background-position: center center;
 }
 
-.page-id-406 .front-counter .right {
+.page-id-406 .front-counter .right,
+.page-id-326 .front-counter .right {
 	padding-left: 20px;
 	padding-right: 20px;
 	display: grid;
@@ -3213,7 +3252,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 80% no-repeat;
 }
 
-.page-id-406 .front-counter .right .sub {
+.page-id-406 .front-counter .right .sub,
+.page-id-326 .front-counter .right .sub {
 	display: block;
 	font-weight: 300;
 	color: #1ed6bb;
@@ -3222,18 +3262,21 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 @media (max-width: 768px) {
-	.page-id-406 .front-counter {
+	.page-id-406 .front-counter,
+	.page-id-326 .front-counter {
 		grid-template-columns: 1fr;
 	}
 	
-	.page-id-406 .front-counter .right .sub {
+	.page-id-406 .front-counter .right .sub,
+	.page-id-326 .front-counter .right .sub {
 		font-size: 12px;
 		font-weight: 600;
 	}
 }
 
 /* Info */
-.page-id-406 .front-info-header {
+.page-id-406 .front-info-header,
+.page-id-326 .front-info-header {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
@@ -3242,7 +3285,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	color: rgba(14,99,216,1);
 }
 
-.page-id-406 h2.front-info-header:after {
+.page-id-406 h2.front-info-header:after,
+.page-id-326 h2.front-info-header:after {
 	content: " ";
 	background: url('https://2020.athens.wordcamp.org/files/2020/01/Waves-Seperator-01.png');
 	display: block;
@@ -3254,12 +3298,14 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 @media ( max-width:375px ) {
-	.page-id-406 h2.front-info-header:after {
+	.page-id-406 h2.front-info-header:after,
+	.page-id-326 h2.front-info-header:after {
 		margin-left: -545px;
 	}
 }
 
-.page-id-406 .front-info {
+.page-id-406 .front-info,
+.page-id-326 .front-info {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
@@ -3268,12 +3314,14 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	grid-gap: 40px;
 }
 
-.page-id-406 .front-info .box {
+.page-id-406 .front-info .box,
+.page-id-326 .front-info .box {
 	background: #fff;
 	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 }
 
-.page-id-406 .front-info .box .header {
+.page-id-406 .front-info .box .header,
+.page-id-326 .front-info .box .header {
 	color: rgba(14,99,216,1);
 	text-align: center;
 	padding: 40px;
@@ -3282,15 +3330,18 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	margin-top: 0;
 }
 
-.page-id-406 .front-info .box .content {
+.page-id-406 .front-info .box .content,
+.page-id-326 .front-info .box .content {
 	height: 300px;
 }
 
-.page-id-406 .front-info .follow-us .content {
+.page-id-406 .front-info .follow-us .content,
+.page-id-326 .front-info .follow-us .content {
 	padding: 0 40px 40px;
 }
 
-.page-id-406 .front-info .follow-us a {
+.page-id-406 .front-info .follow-us a,
+.page-id-326 .front-info .follow-us a {
 	display: grid;
 	grid-template-columns: 20px 1fr;
 	grid-gap: 10px;
@@ -3298,25 +3349,29 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	align-items: center;
 }
 
-.page-id-406 .front-info a {
+.page-id-406 .front-info a,
+.page-id-326 .front-info a {
 	text-decoration: none;
 }
 
-.page-id-406 .front-info .box {
+.page-id-406 .front-info .box,
+.page-id-326 .front-info .box {
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 }
 
-.page-id-406 .front-info .box:hover {
+.page-id-406 .front-info .box:hover,
+.page-id-326 .front-info .box:hover {
 	-moz-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
 
-.page-id-406 .front-info .venue .content {
+.page-id-406 .front-info .venue .content,
+.page-id-326 .front-info .venue .content {
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -3327,7 +3382,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	background-position: center center;
 }
 
-.page-id-406 .front-info .tickets .content {
+.page-id-406 .front-info .tickets .content,
+.page-id-326 .front-info .tickets .content {
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -3339,13 +3395,15 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 @media (max-width:768px) {
-	.page-id-406 .front-info {
+	.page-id-406 .front-info,
+	.page-id-326 .front-info {
 		grid-template-columns: 1fr;
 	}
 }
 
 /* Newsletter */
-.page-id-406 .entry-content .front-newsletter {
+.page-id-406 .entry-content .front-newsletter,
+.page-id-326 .entry-content .front-newsletter {
 	background: #1233a6;
 	color: #fff;
 	padding: 40px 50px;
@@ -3353,7 +3411,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	margin-top: 80px;
 }
 
-.page-id-406 .entry-content .front-newsletter input[type='email'] {
+.page-id-406 .entry-content .front-newsletter input[type='email'],
+.page-id-326 .entry-content .front-newsletter input[type='email'] {
 	background: inherit;	
 }
 
@@ -3361,25 +3420,31 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	margin-top: 0 !important;
 }
 
-.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget form {
+.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget form,
+.page-id-326 .entry-content  .front-newsletter .jetpack_subscription_widget form {
 	display: grid;
 	grid-template-columns: 1fr 200px;
 }
 
 .page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget button,
-.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget #subscribe-submit {
+.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget #subscribe-submit,
+.page-id-326 .entry-content  .front-newsletter .jetpack_subscription_widget button,
+.page-id-326 .entry-content  .front-newsletter .jetpack_subscription_widget #subscribe-submit {
 	margin: 0;
 }
 
 .page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget input,
-.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget button {
+.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget button,
+.page-id-326 .entry-content  .front-newsletter .jetpack_subscription_widget input,
+.page-id-326 .entry-content  .front-newsletter .jetpack_subscription_widget button {
 	box-shadow: unset;
 	border-radius: 0 !important;
 	height: 60px;
 }
 
 @media ( max-width: 1024px ) {
-	.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget form {
+	.page-id-406 .entry-content  .front-newsletter .jetpack_subscription_widget form,
+	.page-id-326 .entry-content  .front-newsletter .jetpack_subscription_widget form {
 		grid-template-columns: 1fr;
 	}
 }
@@ -3490,7 +3555,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	border-bottom: 8px solid #1433a8;
 }
 
-.page-id-406 .front-gold-sponsor-images, .page-id-406 .front-silver-sponsor-images {
+.page-id-406 .front-gold-sponsor-images, .page-id-406 .front-silver-sponsor-images,
+.page-id-326 .front-gold-sponsor-images, .page-id-326 .front-silver-sponsor-images {
 	max-width: 968px;
 /*απο 750px*/
 	margin: 0 auto;
