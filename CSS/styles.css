@@ -3621,3 +3621,7 @@ select[id^="tix_attendee_questions-"] {
 	list-style-type: none;
 }
 
+/* Pre-launch hiding sections */
+#after-header-widgets {
+	visibility: hidden;
+}
