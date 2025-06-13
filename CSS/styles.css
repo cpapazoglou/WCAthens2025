@@ -3622,6 +3622,9 @@ select[id^="tix_attendee_questions-"] {
 }
 
 /* Pre-launch hiding sections */
-#after-header-widgets {
+#after-header-widgets,
+.c-sponsors,
+.box.tickets {
 	visibility: hidden;
 }
+
