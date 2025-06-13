@@ -3613,3 +3613,11 @@ select {
 select[id^="tix_attendee_questions-"] {
 	background-position: 95% 50% !important;
 }
+
+
+/* Blog */
+.page-id-458 ul.wp-block-post-template {
+	padding: 0;
+	list-style-type: none;
+}
+
