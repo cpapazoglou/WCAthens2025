@@ -3621,10 +3621,13 @@ select[id^="tix_attendee_questions-"] {
 	list-style-type: none;
 }
 
-/* Pre-launch hiding sections */
-#after-header-widgets,
-.c-sponsors,
-.box.tickets {
+/* Pre-launch hiding sections start*/
+#after-header-widgets {
 	visibility: hidden;
 }
 
+.c-sponsors,
+.box.tickets {
+	display: none;
+}
+/* Pre-launch hiding sections end*/
