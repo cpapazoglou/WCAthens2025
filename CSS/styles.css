@@ -3624,10 +3624,6 @@ select[id^="tix_attendee_questions-"] {
 /* Pre-launch hiding sections start*/
 .hidden {
 	position: relative;
-	background-color: dimgrey;
-	color: linen;
-	opacity: 1;
-	color: white;
 	cursor: not-allowed;
 }
 
@@ -3657,6 +3653,7 @@ select[id^="tix_attendee_questions-"] {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 #after-header-widgets {
