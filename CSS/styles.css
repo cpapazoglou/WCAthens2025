@@ -3656,6 +3656,10 @@ select[id^="tix_attendee_questions-"] {
 	justify-content: center;
 }
 
+#after-header-widgets .wp-block-image {
+	max-height: 232px;	
+}
+
 #after-header-widgets .hidden::after {
 	content: "Coming Soon";
 	position: absolute;
