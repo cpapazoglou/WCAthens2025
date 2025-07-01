@@ -3686,7 +3686,7 @@ select[id^="tix_attendee_questions-"] {
 /* Pre-launch hiding sections end*/
 
 /* Blog page */
-.entry-content .wp-block-latest-posts.ul {
+.entry-content ul.wp-block-latest-posts {
 	padding: 0;
 }
 
