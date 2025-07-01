@@ -3684,3 +3684,21 @@ select[id^="tix_attendee_questions-"] {
 	display: none;
 }
 /* Pre-launch hiding sections end*/
+
+/* Blog page */
+.wp-block-latest-posts {
+	padding: 0;
+}
+
+.wp-block-latest-posts__featured-image a,
+.wp-block-latest-posts__featured-image img {
+	width: 100%;
+}
+
+.wp-block-latest-posts__post-excerpt a {
+	display: block;
+}
+
+.wp-block-latest-posts__post-title {
+	font-weight: 600;
+}
