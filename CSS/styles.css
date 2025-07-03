@@ -3622,6 +3622,10 @@ ul.wp-block-post-template {
 	list-style-type: none;
 }
 
+.wp-block-separator {
+	border: none
+}
+
 /* Pre-launch hiding sections start*/
 .hidden {
 	position: relative;
