@@ -3616,8 +3616,8 @@ select[id^="tix_attendee_questions-"] {
 }
 
 
-/* Blog */
-.page-id-458 ul.wp-block-post-template {
+/* Blog, Organisers */
+ul.wp-block-post-template {
 	padding: 0;
 	list-style-type: none;
 }
