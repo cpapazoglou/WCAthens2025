@@ -1150,7 +1150,7 @@ ul.menu {
 }
 
 .site-header {
-	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 100% no-repeat;
+	background: url('https://athens.wordcamp.org/2025/files/2025/07/Homepage-Header.png') 50% 100% no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1282,7 +1282,7 @@ ul.menu {
 ======================================*/
 .page .site-header,
 .single .site-header {
-	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 80% no-repeat;
+	background: url('https://athens.wordcamp.org/2025/files/2025/07/Homepage-Header.png') 50% 80% no-repeat;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
@@ -3249,7 +3249,7 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	line-height: 1;
 	text-align: center;
 	align-items: center;
-	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 80% no-repeat;
+	background: url('https://athens.wordcamp.org/2025/files/2025/07/Homepage-Header.png') 50% 80% no-repeat;
 }
 
 .page-id-406 .front-counter .right .sub,
