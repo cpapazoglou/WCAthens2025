@@ -2263,20 +2263,30 @@ button.tix-payment-tab.tix-preferred-payment-option {
 }
 
 @media ( max-width: 768px ) {
-	.page-id-14 tr td:first-child {
-		max-width: 96%;
+	.page-id-14 .tix-left {
+		width: 100%;
 		margin: 0 auto;
 		text-align: left;
 		font-size: 1.1rem;
 		border-bottom: 3px solid #1233a6;
+	}
+
+	.page-id-14 .tix-right {
+		width: 100%;
 	}
 	
 	.page-id-14 #primary {
 		padding: 5rem 1rem 17.8rem;
 	}
 	
-	.page-id-14 th, .page-id-4243 td {
+	.page-id-14 th, .page-id-14 td {
 		border: none;
+	}
+
+	.tix-screen-reader-fieldset {
+		display: flex;
+		justify-content: space-between;
+		padding-left: 10px;
 	}
 }
 
