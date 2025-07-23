@@ -2285,13 +2285,14 @@ button.tix-payment-tab.tix-preferred-payment-option {
 		padding-left: 10px;
 	}
 
-	.tix-row-coupon td {
-		max-width: 100%;
+	.tix-row-coupon td:first-child {
+		max-width: 100% !important;
 	}
 
 	.tix-attendee-form td.tix-left,
 	.tix-attendee-form td.tix-right {
 		width: 100% !important;
+		max-width: 100%;;
 	}
 	
 	.tix-attendee-form input[type='text'],
@@ -2299,10 +2300,15 @@ button.tix-payment-tab.tix-preferred-payment-option {
 	.tix-attendee-form input[type='url'],
 	.tix-order-summary .tix-column-description {
 		width: 100% !important;
+		max-width: 100%;
 	}
 	
 	tr td:first-child {
 		font-size: 1.0125em;
+	}
+
+	.tix-row-total td {
+		max-width: 100% !important;
 	}
 
 	.tix-order-summary .tix-column-description {
