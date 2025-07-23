@@ -2309,7 +2309,7 @@ button.tix-payment-tab.tix-preferred-payment-option {
 		width: 100% !important;
 	}
 	
-	.tix-attendee-form td.tix-left {
+	/* .tix-attendee-form td.tix-left {
 		width: 40%;
 		float: left;
 	}
@@ -2317,7 +2317,7 @@ button.tix-payment-tab.tix-preferred-payment-option {
 	.tix-attendee-form td.tix-right {
 		width: 60%;
 		float: left;
-	}
+	} */
 }
 
 /* 11.3 Budget
