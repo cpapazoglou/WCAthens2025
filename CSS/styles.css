@@ -2242,7 +2242,7 @@ button, a.btn-sm {
 	padding: 1.1875rem !important;
 }
 
-.page-id-4243 #primary {
+.page-id-14 #primary {
 	padding: 5rem 5rem 17.4rem;
 }
 
@@ -2258,8 +2258,12 @@ button.tix-payment-tab.tix-preferred-payment-option {
 	width: 100%;
 }
 
+.tix-row-health-advisory {
+	display: none;
+}
+
 @media ( max-width: 768px ) {
-	.page-id-4243 tr td:first-child {
+	.page-id-14 tr td:first-child {
 		max-width: 96%;
 		margin: 0 auto;
 		text-align: left;
@@ -2267,11 +2271,11 @@ button.tix-payment-tab.tix-preferred-payment-option {
 		border-bottom: 3px solid #1233a6;
 	}
 	
-	.page-id-4243 #primary {
+	.page-id-14 #primary {
 		padding: 5rem 1rem 17.8rem;
 	}
 	
-	.page-id-4243 th, .page-id-4243 td {
+	.page-id-14 th, .page-id-4243 td {
 		border: none;
 	}
 }
