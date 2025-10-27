@@ -3320,7 +3320,8 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 .page-id-406 .front-info,
-.page-id-326 .front-info {
+.page-id-326 .front-info,
+.page-id-406 .sponsors {
 	max-width: 1100px;
 	width: calc(100vw - 40px);
 	margin: 0 auto;
