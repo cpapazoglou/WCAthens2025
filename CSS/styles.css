@@ -3724,3 +3724,7 @@ ul.wp-block-post-template {
 .wp-block-latest-posts__post-title {
 	font-weight: 600;
 }
+
+.sponsors-small a {
+	pointer-events: none !important;
+}
